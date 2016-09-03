@@ -41,6 +41,7 @@
     
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.custom.structure.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.custom.theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/progressbar.css" />
     <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="js/jquery.mobile.custom.js"></script>
     <title>Hello World</title>
@@ -64,6 +65,12 @@
         Time
         <p id="aTime"></p>
     </div>
+
+<div id="progressBar"><div></div></div>
+<input id="secondstocount">
+ <a href="javascript: progress($('#secondstocount').val(),$('#secondstocount').val(), $('#progressBar'));" data-role="button">Start timer</a>
+ 
+
     <div data-role="footer" data-position="fixed">
         <h4>Footer</h4>
     </div>

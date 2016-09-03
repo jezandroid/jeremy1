@@ -53,8 +53,8 @@
         <h1>Home page</h1>
     </div>
     <div data-role="content">
-        Hello Phonegap and jquery mobile
-        <a href="#newpage" data-role="button">NEW PAGE</a>
+        Accelerometer demo
+        <a href="#newpage" data-role="button">Timer</a>
         <br/>
         X
         <p id="aX"></p>
@@ -66,9 +66,7 @@
         <p id="aTime"></p>
     </div>
 
-<div id="progressBar"><div></div></div>
-<input id="secondstocount">
- <a href="javascript: progress($('#secondstocount').val(),$('#secondstocount').val(), $('#progressBar'));" data-role="button">Start timer</a>
+
  
 
     <div data-role="footer" data-position="fixed">
@@ -77,11 +75,14 @@
 </div>
 <div id="newpage" data-role="page">
     <div data-role="header">
-        <h1>New page</h1>
+        <h1>Timer</h1>
     </div>
     <div data-role="content">
-        Second page
-        <a href="#home" data-role="button">Back home</a>
+        <div id="progressBar"><div></div></div>
+<input id="secondstocount">
+ <a href="javascript: progress($('#secondstocount').val(),$('#secondstocount').val(), $('#progressBar'));" data-role="button">Start timer</a>
+
+        <a href="#home" data-role="button">Back to accelerometer demo</a>
     </div>
     <div data-role="footer" data-position="fixed">
         <h4>Footer</h4>

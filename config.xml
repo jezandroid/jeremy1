@@ -29,7 +29,7 @@
   <platform name="android">
     <icon src="www/res/icon/android/mipmap-ldpi/ic_launcher.png" density="ldpi"/>
     <icon src="www/res/icon/android/mipmap-mdpi/ic_launcher.png" density="mdpi"/>
-    <icon src="www/res/icon/android/mipmap-xdpi/ic_launcher.png" density="hdpi"/>
+    <icon src="www/res/icon/android/mipmap-hdpi/ic_launcher.png" density="hdpi"/>
     <icon src="www/res/icon/android/mipmap-xhdpi/ic_launcher.png" density="xhdpi"/>
     <icon src="www/res/icon/android/mipmap-xxhpi/ic_launcher.png" density="xxhdpi"/>
     <icon src="www/res/icon/android/mipmap-xxxhpi/ic_launcher.png" density="xxxhdpi"/>    
